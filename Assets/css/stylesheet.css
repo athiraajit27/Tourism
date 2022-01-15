@@ -1,0 +1,382 @@
+#icon-cont{
+    display: inline;
+  }
+  
+  .icon{
+    list-style-type: none;display: inline;font-size: xx-large;
+  }
+  
+  .bottom-icon{
+    display: inline;
+  }
+  
+  #created{
+    text-align: right;
+  }
+  #yt{
+    color: #c81c1c;
+  }
+  #fb{
+    color: rgb(27, 117, 235);
+  }
+  #tt{
+    color: rgb(23, 117, 204);
+  }
+  
+  #ig{
+    color: black;
+  }
+  
+  #pt{
+    color: #c81c1c;
+  }
+  
+  
+  #horizontal-list{
+    list-style-type:none;
+    position: fixed;
+    color: yellow;
+  }
+  
+  
+  
+  ul#horizontal-list li {
+      display:inline;
+    }
+  
+    #logo{
+      position: fixed;
+    }
+   
+  
+  
+  i{
+    font-weight: 600;
+  }
+  
+  
+  
+  
+  
+  
+  #formid{
+    width: 350px;
+    margin-left: 40%;
+    margin-top: 10%;
+  }
+  
+  
+   
+  
+  
+  
+    .cards-wrapper {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+    
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  @media (min-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+  } 
+  
+  
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  
+  .marqueeticker {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 50px;
+      margin: 0 auto
+  }
+  
+  .news {
+      width: 76%;
+      background: #cc4444;
+      padding: 0 2%
+  }
+  
+  .marqueetitle {
+      width: 20%;
+      text-align: center;
+      background: #c81c1c;
+      position: relative
+  }
+  
+  .marqueetitle:after {
+      position: absolute;
+      content: "";
+      right: -15%;
+      border-left: 20px solid #c81c1c;
+      border-top: 28px solid transparent;
+      border-right: 20px solid transparent;
+      border-bottom: 21px solid transparent;
+      top: 5px
+  }
+  
+  .marqueetitle h5 {
+      font-size: 18px;
+      margin: 8% 0
+  }
+  
+  .news marquee {
+      font-size: 18px;
+      margin-top: 12px
+  }
+  
+  .news-content p {
+      margin-right: 41px;
+      display: inline
+  }
+  
+  #list-item{
+    color: yellow;
+      
+  }
+  
+  .top-share .yt {
+      background-color: #ba2025;
+  }
+  
+  
+  
+  .carousel-inner{height: 500px;width: 100%;}
+  
+  
+  .carouselExampleContro{z-index: -1;}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+#icon-cont{display:inline;}
+
+.icon{list-style-type:none;display:inline;font-size:xx-large;}
+.bottom-icon{display:inline;}
+#created{text-align:right;}
+#yt{color:#c81c1c;}
+#fb{color:rgb(27, 117, 235);}
+#tt{color:rgb(23, 117, 204);}
+#ig{color:black;}
+#pt{color:#c81c1c;}
+
+
+
+
+#horizontal-list{
+    list-style-type: none;
+    position: fixed;
+  }
+
+
+
+  ul#horizontal-list li {
+    display: inline;
+  }
+
+
+
+
+
+#logo{position:fixed;} 
+
+i{font-weight:600;}
+
+
+
+
+
+#formid{width:350px;margin-left:40%;margin-top:10%;}
+
+ 
+
+
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  @media (min-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+  } 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+
+
+.marqueeticker {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto
+}
+
+.news {
+    width: 76%;
+    background: #cc4444;
+    padding: 0 2%
+}
+
+.marqueetitle {
+    width: 20%;
+    text-align: center;
+    background: #c81c1c;
+    position: relative
+}
+
+.marqueetitle:after {
+    position: absolute;
+    content: "";
+    right: -22%;
+    border-left: 20px solid #c81c1c;
+    border-top: 28px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 21px solid transparent;
+    top: 0px
+}
+
+.marqueetitle h5 {
+    font-size:18px;
+    margin:8% 0
+}
+
+.news marquee {
+    font-size:18px;
+    margin-top:12px
+}
+
+.news-content p {
+    margin-right:41px;
+    display:inline
+}
+
+
+
+
+
+.top-share .yt {background-color:#ba2025;}
+
+
+.carousel-inner{height:500px;width:100%;}
+
+.carouselExampleContro{z-index:-1;} */
